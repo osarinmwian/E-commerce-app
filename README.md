@@ -21,7 +21,7 @@ Before you begin, ensure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ecommerce-app.git
+   git clone https://github.com/osarinmwian/E-commerce-app
    cd ecommerce-app
 
 2. Install dependencies:
