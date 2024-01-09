@@ -40,3 +40,4 @@ Product search with live updates
 Category-based filtering
 Product details page
 Responsive design for various screen sizes
+State Management
