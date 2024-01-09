@@ -41,3 +41,23 @@ Category-based filtering
 Product details page
 Responsive design for various screen sizes
 State Management
+
+### Authentication
+Secure user authentication to ensure a personalized shopping experience.
+
+
+### Product Search
+Dynamic product search functionality with live updates to help users quickly find desired items.
+
+### Category-based Filtering
+Efficient category-based filtering to facilitate browsing based on user preferences and product types.
+
+
+### Product Details
+Comprehensive product details page providing in-depth information about each item, aiding users in making informed decisions.
+
+### Responsive Design
+Responsive design implementation to ensure a consistent and visually appealing user interface across various screen sizes and devices.
+
+### State Management
+Effective state management using redux toolkit to handle user interactions, maintain application state, and provide a smooth and responsive user experience.

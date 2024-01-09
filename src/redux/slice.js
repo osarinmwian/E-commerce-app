@@ -34,7 +34,7 @@ location: "Lagos"
  {
   image: require('../assets/images/fn1.jpg'),
   description: "Experience sophistication and grace with ElegantEssence Interiors. This piece exudes timeless beauty and refined aesthetics, transforming your space into a haven of elegance and style.",
-  price: "800,000",
+  price: "300,000",
   category:"ElegantEssence Interiors",
   location: "Edo"
       }, 
