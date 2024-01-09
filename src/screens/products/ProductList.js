@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
 
     },
     productText: {
-        fontSize: SIZES.xSmall,
+        fontSize: SIZES.medium,
         color: COLORS.primary,
         marginTop: SIZES.xSmall,
       },
