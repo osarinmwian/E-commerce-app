@@ -18,8 +18,11 @@ const signUpSlice = createSlice({
     setUserSignUp: (state, action) => {
         return { ...state, ...action.payload };
     },
+    resetSignUpData: (state) => {
+      return {};
+     },
   },
 });
 
-export const { setUserSignUp } = signUpSlice.actions;
+export const { setUserSignUp, resetSignUpData} = signUpSlice.actions;
 export default signUpSlice.reducer;

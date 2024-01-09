@@ -14,19 +14,10 @@ const loginSlice = createSlice({
    setUserLogin: (state, action) => {
      return { ...state, ...action.payload };
    },
-   logoutUser: () => {
-     return loginInitState;
-   },
-   reset: state => loginInitState,
  },
 });
 
-export const { setUserLogin, logoutUser } = loginSlice.actions;
+export const { setUserLogin, } = loginSlice.actions;
+export default loginSlice.reducer;
 
-export const rootReducer = (state, action) => {
- if (action.type === 'userLogin/logoutUser') {
-   state = undefined;
- }
- return loginSlice.reducer(state, action);
-};
 

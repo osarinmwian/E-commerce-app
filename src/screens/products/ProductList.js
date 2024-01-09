@@ -10,7 +10,7 @@ const ProductList =() =>{
     <View>
        <View style={styles.container}> 
       <Text style={styles.productHeaderText}>Find Product</Text>
-      <Text style={styles.productText}> View Available Products</Text>
+      <Text style={styles.productText}>View Available Products</Text>
     </View>
     <View style={styles.searchContainer}>
        <TouchableOpacity>

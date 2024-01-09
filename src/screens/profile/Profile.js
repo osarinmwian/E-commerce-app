@@ -1,20 +1,19 @@
-import React, { useState } from 'react'
-import { View, Text, SafeAreaView, StyleSheet , Image, TouchableOpacity} from 'react-native'
+import React from 'react'
+import { View, Text, SafeAreaView, StyleSheet , Image, TouchableOpacity, Alert} from 'react-native'
 import { COLORS, SIZES } from '../../constants/theme'
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { useAppDispatch, useAppSelector } from '../../store';
-import { logoutUser } from '../../redux/loginSlice';
+import { resetSignUpData } from '../../redux/signUpSlice';
 const Profile =() =>{
   const  navigation = useNavigation();
   const products = useAppSelector((state) => state.products);
   const product= {...products[0]}
   const dispatch = useAppDispatch();
   const handleLogout = () => {
-    console.log("bkbj")
     navigation.navigate("Login")
-  dispatch(logoutUser());
-  
+  dispatch(resetSignUpData());
+  Alert.alert('Logout', 'Logout Successful');
 };
   return (
     <SafeAreaView style={styles.container}>
